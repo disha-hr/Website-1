@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Recipe</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #fff3e0;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 40px auto;
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+        }
+
+        h1 {
+            text-align: center;
+            color: #e65100;
+        }
+
+        h2 {
+            color: #f57c00;
+            border-bottom: 2px solid #ffcc80;
+            padding-bottom: 5px;
+        }
+
+        .food-image {
+            width: 100%;
+            max-height: 350px;
+            object-fit: cover;
+            border-radius: 12px;
+            margin-bottom: 20px;
+        }
+
+        li {
+            margin: 10px 0;
+        }
+
+        .steps li {
+            margin-bottom: 15px;
+        }
+
+        .info {
+            background-color: #fff8e1;
+            padding: 15px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>🍝 Vegetable Pasta Recipe</h1>
+
+        <div class="info">
+            <strong>Cooking Time:</strong> 30 minutes <br>
+            <strong>Servings:</strong> 2 people
+        </div>
+
+        <h2>🥕 Ingredients</h2>
+
+        <ul>
+            <li>200g pasta</li>
+            <li>1 tablespoon olive oil</li>
+            <li>1 onion, chopped</li>
+            <li>2 cloves garlic, chopped</li>
+            <li>1 tomato, chopped</li>
+            <li>1/2 cup bell peppers</li>
+            <li>1/2 cup sweet corn</li>
+            <li>1/2 teaspoon black pepper</li>
+            <li>1/2 teaspoon chili flakes</li>
+            <li>Salt to taste</li>
+            <li>1/2 cup pasta sauce</li>
+            <li>Grated cheese for topping</li>
+        </ul>
+
+        <h2>👨‍🍳 Cooking Instructions</h2>
+
+        <ol class="steps">
+            <li>Boil water in a large pot and add a little salt.</li>
+
+            <li>Add the pasta and cook according to the package instructions.</li>
+
+            <li>Heat olive oil in a pan and sauté the chopped onion and garlic.</li>
+
+            <li>Add tomato, bell peppers, and sweet corn. Cook for 5–7 minutes.</li>
+
+            <li>Add pasta sauce, black pepper, chili flakes, and salt.</li>
+
+            <li>Add the cooked pasta and mix everything together.</li>
+
+            <li>Cook for another 2–3 minutes.</li>
+
+            <li>Top with grated cheese and serve hot.</li>
+        </ol>
+
+        <h2>🍽️ Serving</h2>
+
+        <p>
+            Serve the vegetable pasta hot with extra cheese and your favorite
+            drink. Enjoy your delicious homemade meal!
+        </p>
+
+    </div>
+
+</body>
+</html>
